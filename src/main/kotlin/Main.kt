@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
 
     for(name in names){
         if(name == "Wilson")
-            continue
+            break
         println(name)
     }
 }
